@@ -4,7 +4,7 @@ import "./Order.css";
 function Order() {
   const [order, setOrder] = useState([]);
   console.log(order);
-  const apiUrl = "https://ecommerce-backend-tq5k.onrender.com";
+  const apiUrl = "http://localhost:5000";
 
   const orderDetail = () => {
     fetch(`${apiUrl}/admin/order-detail`)

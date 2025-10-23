@@ -4,7 +4,7 @@ import cross_icon from "../../assets/cross_icon.png";
 import { Link, useNavigate } from "react-router-dom";
 
 function AllProducts() {
-  const apiUrl = "https://ecommerce-backend-tq5k.onrender.com";
+  const apiUrl = "http://localhost:5000";
   const [allproducts, setAllproducts] = useState([]);
   const navigate = useNavigate();
 

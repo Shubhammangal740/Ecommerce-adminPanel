@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./User.css";
 
 function User() {
-  const apiUrl = "https://ecommerce-backend-tq5k.onrender.com";
+  const apiUrl = "http://localhost:5000";
   const [user, setUser] = useState([]);
   const userDetail = () => {
     fetch(`${apiUrl}/admin/user-detail`)
